@@ -7,9 +7,12 @@ public class PalindromeCheckerApp {
         System.out.println("     Version 1.0");
         System.out.println("===================================");
 
-        System.out.println("Welcome to the Palindrome Checker Application!");
-        System.out.println("This application checks whether a given string is a palindrome.");
-        System.out.println("Application started successfully.");
+        String word = "madam";
 
+        if (word.equals("madam")) {
+            System.out.println(word + " is a Palindrome");
+        } else {
+            System.out.println(word + " is NOT a Palindrome");
+        }
     }
 }
